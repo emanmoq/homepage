@@ -111,10 +111,13 @@ height:30px;
 .readmore{
 	margin-top:50px;
 	padding:5px 10px;
+	background-color:#568af4;
 }
 /************** Feature Section ********************/
 .section {
-	margin-top:60px;
+	padding-top:60px;
+	padding-bottom: 20px;
+
 }
 .Feature{
 }
@@ -122,8 +125,8 @@ height:30px;
 	margin-bottom: 60px;
 }
 .FeatureBox{
-	height: 1120px;
-	width:300px;
+	height: 450px;
+	width:100%;
 }
 .FeatureImg{
 	width:100%;
@@ -161,7 +164,127 @@ font-weight: bold;
 }
 .FeatureBox:hover .moredesc{
 	display: block}
+	.moredesc a:hover{
+		text-decoration: none;
+	}
+	.FeatureBox:hover  {
+		box-shadow: 0 0 5px 5px rgba(0,0,0,.14);
+	}
 
 .FeatureOwl button{
     display: none;
+}
+/************************ Demo Site *********************/
+.DemoSiteBox{
+height: auto;
+}
+.SiteImg{
+	width:100%;
+	height: 200px;
+}
+.SiteImg img{
+	width:100%;
+	height: 100%;
+}
+.overlay{
+	background-color:rgba(0,0,0,.6);
+	width:100%;
+	height:200px;
+	z-index: 5;
+	position: absolute;
+	top:0;
+	left:0;
+line-height: 170px;
+opacity: 0;
+}
+.DemoSiteBox:hover .overlay{
+opacity: 1;
+}
+.readmore.SiteRead{
+	margin-left:35%;
+	padding:3px 7px;
+	
+}
+.siteOwl {
+	width:100%;
+}
+
+.Infosec{
+	width:100%;
+}
+.Infosec span{
+	font-size:60px;
+	
+}
+.Infosec p{
+	margin-top:10px;
+	display: block;
+	font-size: 100%;
+}
+.Infosec a{
+	color:black;
+}
+.Infosec a:hover{
+	text-decoration: none;
+	color:#568af4;
+}
+.topInfosec{
+	border-right :1px solid #e3e3e3;
+	border-bottom:1px solid #e3e3e3;
+	border-top:0;
+}
+.bluesec.download{
+	margin-top:20px;
+	margin-bottom:20px;
+	height: auto;
+}
+.logoDownload{
+	background-color:white;
+	width:30%;
+	float:left;
+}
+.logoDownload img{
+	width: 100%;
+    padding: 35px;
+}
+.downloadDesc{
+	color:white;
+	padding-top:20px;
+	padding-left: 30px;
+	float:left;
+}
+.downloadbtn{
+	background-color:white;
+	color:#568af4;
+	display: block;
+	margin-top:20px;
+	width:30%;
+}
+
+@media (min-width: 300px) and (max-width: 767px){
+	.dropdown-menu{
+   box-shadow: none;
+   margin-left:20px;
+   border: 0;
+
+	}
+	.burgerMenu{
+		display:none;
+	}
+	.logo{
+		width:70%;
+		float: right
+	}
+	.logo img{
+		width:100%;
+	}
+	.navbar-toggler span{
+		float:left;
+	}
+	.desc{
+  float: left;
+    margin: 100px 125px;
+	margin: 33px 10px;
+    max-width: 250px;
+}
 }
