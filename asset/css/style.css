@@ -174,6 +174,20 @@ strong.logo-2 {
     display: block;
     text-align: center;
 }
+.cp_side-navigation li a:hover, .cp_side-navigation li a:focus {
+    text-decoration: none;
+    padding-left: 20px;
+    background: #48a6ff;
+}
+.cp_side-navigation li:first-child a {
+    padding: 13px 0;
+}
+.cp_side-navigation li a {
+    font: 400 15px/15px 'Roboto', sans-serif;
+    color: #fff !important;
+    display: block;
+    padding: 34px 0;
+}
 /********************************************/
 .logo{
 	margin-right:35px;

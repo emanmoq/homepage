@@ -53,4 +53,23 @@ if ($('#cp_side-menu-btn, #cp-close-btn').length) {
     });
 
 }
+if ($('#content-1').length) {
+
+    $("#content-1").mCustomScrollbar({
+
+        horizontalScroll: false
+
+    });
+
+    $(".content.inner").mCustomScrollbar({
+
+        scrollButtons: {
+
+            enable: true
+
+        }
+
+    });
+
+}
 });
