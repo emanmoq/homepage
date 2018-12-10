@@ -125,7 +125,7 @@ height:30px;
 	margin-bottom: 80px;
 }
 .FeatureBox{
-	height: 450px;
+	height: 440px;
 	width:100%;
 }
 .FeatureImg{
@@ -247,7 +247,8 @@ opacity: 1;
 .FeaturesText p{
 	font-size: 14px;
 	margin-bottom: 0;
-	color:#999
+	color:#999;
+	height: 50px;
 } 
 .FeaturesContiner:hover .FeatureIcon {
 	background-color:#1b8af3;
@@ -255,11 +256,15 @@ opacity: 1;
 	transition: all 0.3s ease-in-out 0s;
 
 }
+.FeaturesText a{
+	margin-top:10px;
+	display: inline-block;
+}
 /***************************************************************/
 
 .bluesec.download{
-	margin-top:20px;
-	margin-bottom:20px;
+	margin-top:50px;
+	margin-bottom:50px;
 	height: auto;
 	box-shadow: rgba(175, 175, 175, 0.23) 0px 0px  10px 5px;
 }
@@ -285,7 +290,56 @@ opacity: 1;
 	margin-top:20px;
 	width:30%;
 }
-
+/*****************************************/
+.Developer{
+	border-top:1px solid #d7d7d7;
+}
+.join{
+	margin-top:20px;
+	padding:5px 20px;
+	background-color: #568af4;
+}
+/***********************************************/
+.Footer{
+	border-top:10px solid #07111B;
+	height: auto;
+}
+.FootCont{
+	 max-width: 960px;
+}
+.Footer h4 {
+    font: 500 18px/18px 'Roboto', sans-serif;
+    color: #222;
+	margin: 0;
+	color: #eeeded; background-color: #04396a; padding: 10px;
+}
+.Footer ul li span{
+	color:white;
+}
+.Footer ul li a:hover{
+	text-decoration: none;
+}
+.Footer ul {
+	margin-top:10px;
+}
+.copyright{
+	border-top:1px solid white;
+	padding-top:20px;
+}
+.copyright p{
+	float: left;
+    font: 400 12px/12px 'Roboto', sans-serif;
+    color: #07111b;
+    padding: 9px 0 0 0;
+}
+.facebook{
+	font-size:30px;
+	color:#568af4;
+	background-color:white;
+	border-radius: 50%;
+	position: absolute;
+}
+/***************************************/
 @media (min-width: 300px) and (max-width: 767px){
 	.dropdown-menu{
    box-shadow: none;
