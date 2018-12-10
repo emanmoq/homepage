@@ -36,4 +36,21 @@ $('.siteOwl').owlCarousel({
       
     }
 });
+if ($('#cp_side-menu-btn, #cp-close-btn').length) {
+
+    $('#cp_side-menu-btn, #cp-close-btn').on('click', function(e) {
+
+        var $navigacia = $('body, #cp_side-menu'),
+
+            val = $navigacia.css('left') === '410px' ? '0px' : '410px';
+
+        $navigacia.animate({
+
+            left: val
+
+        }, 410)
+
+    });
+
+}
 });
