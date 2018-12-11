@@ -563,6 +563,9 @@ opacity: 1;
     color: #888;
     margin: 0 0 20px 0;
 }
+.Developer{
+	background: #eff3f6;
+}
 .join{
 	margin-top:80px;
 	padding:5px 20px;
@@ -656,9 +659,7 @@ opacity: 1;
 	float:none !important;
 }
 /**************************/
-.gray-bacground{
-	background-color:#eff3f6;
-}
+
 .developersec h2{
 font-size:30px;
 }
