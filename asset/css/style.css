@@ -346,11 +346,38 @@ font-weight: bold;
 	.FeatureBox:hover  {
 		box-shadow: 0 0 5px 5px rgba(0,0,0,.14);
 	}
-
-.FeatureOwl button{
-    display: none;
+	.siteOwl .owl-nav.disabled {
+		display: block;
+	}
+	.owl-carousel .owl-nav button.owl-next,
+	 .owl-carousel .owl-nav button.owl-prev {
+		width: 40px;
+		height: 40px;
+		background:#7fc4fd;
+		text-align: center;
+		border-radius: 5px;
+		position: absolute;
+		top:35%;
+		font-size:30px;
+		color:white;
+	}
+.owl-carousel .owl-nav button.owl-next{
+	right: -24px;
+}
+.owl-carousel .owl-nav button.owl-prev{
+	left: -24px;
+  
+}
+.owl-carousel .owl-nav button.owl-next:hover,
+ .owl-carousel .owl-nav button.owl-prev:hover{
+    
+	box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+	background-color:#1b8af3;
 }
 /************************ Demo Site *********************/
+.DemoSite{
+background-color: #eff3f6;
+}
 .DemoSiteBox{
 height: auto;
 }
@@ -467,14 +494,39 @@ opacity: 1;
 	width:30%;
 }
 /*****************************************/
+
 .BlogCont img{
 	width:100%;
+}
+.blogImg{
+	height: 235px;
+}
+.BlogCont video{
+	width: 100% !important;
+	height: 100%;
+}
+.BlogCont figure{
+	width:100%;
+	height: auto;
+	box-shadow: 0 0 7px rgba(0, 0, 0, 0.15);
+	padding-bottom:1%;
+
+}
+.BlogCont figure:hover{
+	box-shadow: 0 0  10px 5px rgba(0, 0, 0, 0.15);
+	margin-top:-20px;
+}
+.blogDesc{
+	margin:10% 5%;
+}
+.blogDesc p{
+	font-size:100%;
+	line-height: 1.5;
 }
 /***************************************/
 .sidbox{
 	width: 60%;
 	margin-right:95px;
-
 }
 .sidbox h4 {
     margin: 0 0 5px 0;
@@ -604,6 +656,9 @@ opacity: 1;
 	float:none !important;
 }
 /**************************/
+.gray-bacground{
+	background-color:#eff3f6;
+}
 .developersec h2{
 font-size:30px;
 }

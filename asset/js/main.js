@@ -6,7 +6,7 @@ $('.FeatureOwl').owlCarousel({
     autoplay: true,
     loop: true,
     dots: false,
-    nav: false,
+    nav: true,
     responsiveClass: true,
     responsive: {
         0: {
@@ -23,7 +23,7 @@ $('.siteOwl').owlCarousel({
     autoplay: true,
     loop: true,
     dots: false,
-    nav: false,
+    nav: true,
     responsiveClass: true,
     responsive: {
         0: {
