@@ -260,7 +260,20 @@ strong.logo-2 {
 	float:left;
 	line-height: 72px;
 }
+.nav-link a:before {
+    left: 0;
+    top: 0;
+}
+.nav-link:before, .nav-link:after {
+	border-color: #fff;
+}
 
+ a.btn-style-1:hover:before {
+	opacity: 1;
+	width: 100%;
+	left: 0;
+	transform: rotate(0) scaleY(7);
+}
 .bluesec{
 height:30px;
 	width:100%;
@@ -630,6 +643,10 @@ opacity: 1;
    border: 0;
 
 	}
+	.owl-carousel .owl-nav{
+		display:none;
+	}
+
 	.burgerMenu{
 		display:none;
 	}
